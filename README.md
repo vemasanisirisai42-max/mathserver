@@ -29,7 +29,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 # PROGRAM :
- <!DOCTYPE html>
+``` <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -176,7 +176,7 @@ from django.urls import path
 from mathapp import views
 
 urlpatterns = [
-    path('', views.lamp_calculator, name='lamp_calculator'),  
+    path('', views.lamp_calculator, name='lamp_calculator'), ```
 ]  
 
 # SERVER SIDE PROCESSING:
